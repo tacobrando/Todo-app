@@ -1,0 +1,108 @@
+li {
+    list-style: none;
+}
+
+
+.add-task{
+    width: 100%;
+    height: 100%;
+}
+
+.task-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.task-input input {
+    width: 100%;
+    height: 30px;
+}
+
+.add-btn{
+    height: 36px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    font-size: calc(1px + 2vmin);
+    border: 1px grey solid;
+}
+
+.task-list{
+    width: 100%;
+}
+
+.btns {
+    display: flex;
+    font-size: 1rem;
+    margin-left: auto;
+    height: 36px;
+    border-radius: 3px;
+}
+.title{
+    width: 100%;
+    padding: 5px;
+}
+
+.btns p {
+    padding-left: 5px;
+}
+
+
+.taskForm {
+    display: flex;
+    width: 100%;
+}
+
+.taskForm input {
+    width: 100%;
+    border: none;
+}
+.complete {
+    border: none;
+    color: rgb(179, 179, 179);
+}
+
+.complete .title {
+    text-decoration: line-through
+}
+
+.todos{
+    border: none;
+}
+
+.task-list button {
+    border-radius: 3px;
+    color: white;
+}
+
+.complete-btn{
+    background: #5cb85c;
+    border: 1px solid #5cb85c;
+}
+.undo-btn{
+    background: rgb(190, 190, 190);
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.delete-btn{
+    background: #d9534f;
+    border: 1px solid #d9534f
+}
+
+.edit-btn{
+    background: grey;
+    border: 1px solid grey;
+}
+
+.hover:hover {
+    opacity: 0.9;
+}
